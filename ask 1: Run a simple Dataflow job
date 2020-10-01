@@ -1,0 +1,13 @@
+# Run a simple Dataflow job
+
+In this task, you have to transfer the data in a CSV file to BigQuery using Dataflow via Pub/Sub. First of all, you need to create a BigQuery dataset called lab and a Cloud Storage bucket called with your project ID.
+
+## Created a BigQuery dataset called lab
+
+* In the Cloud Console, click on Navigation Menu > BigQuery.
+* Select your project in the left pane.
+* Click CREATE DATASET.
+* Enter lab in the Dataset ID, then click Create dataset.
+* Run gsutil cp gs://cloud-training/gsp323/lab.schema . 
+* In the Cloud Shell to download the schema file.
+* View the schema by running cat lab.schema.
